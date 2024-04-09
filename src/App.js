@@ -8,6 +8,7 @@ import {
 // import PC1 component
 import PC1 from './componentes/PC1';
 import Contenedor from './componentes/contenedor';
+import HomePage from './componentes/homepage';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
                 <Route
                         exact
                         path="/"
-                        element={<Contenedor/>}
+                        element={<HomePage/>}
                     />
                 <Route
                         exact
